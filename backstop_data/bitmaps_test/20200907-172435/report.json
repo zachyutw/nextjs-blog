@@ -1,0 +1,60 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_0_phone.png",
+        "test": "../bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_0_phone.png",
+        "selector": "#storybook-preview-wrapper",
+        "fileName": "backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_0_phone.png",
+        "label": "NextJs Story Button",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/?path=/story/button--render-button",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:6006/?path=/story/button--render-button",
+        "error": "Test file not found /Users/zachyu/Workplace/self_dev/servers/node/nextjs-blog/backstop_data/bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_1_tablet.png",
+        "test": "../bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_1_tablet.png",
+        "selector": "#storybook-preview-wrapper",
+        "fileName": "backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_1_tablet.png",
+        "label": "NextJs Story Button",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/?path=/story/button--render-button",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:6006/?path=/story/button--render-button",
+        "error": "Test file not found /Users/zachyu/Workplace/self_dev/servers/node/nextjs-blog/backstop_data/bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_2_desktop.png",
+        "test": "../bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_2_desktop.png",
+        "selector": "#storybook-preview-wrapper",
+        "fileName": "backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_2_desktop.png",
+        "label": "NextJs Story Button",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/?path=/story/button--render-button",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at http://localhost:6006/?path=/story/button--render-button",
+        "error": "Test file not found /Users/zachyu/Workplace/self_dev/servers/node/nextjs-blog/backstop_data/bitmaps_test/20200907-172435/backstop_default_NextJs_Story_Button_0_storybook-preview-wrapper_2_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
