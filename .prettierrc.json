@@ -1,0 +1,12 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true,
+    "plugins": [
+        "preset-lint-consistent",
+        "preset-lint-recommended",
+        "preset-lint-markdown-style-guide",
+        "preset-prettier"
+    ]
+}

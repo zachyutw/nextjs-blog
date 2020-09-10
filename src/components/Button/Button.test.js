@@ -1,7 +1,5 @@
 import Button from './Button';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom';
-import '@testing-library/jest-dom/extend-expect';
 
 describe('component button', () => {
     test('render correct', () => {

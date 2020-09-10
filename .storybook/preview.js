@@ -1,6 +1,7 @@
 import { action } from '@storybook/addon-actions';
 import { addParameters } from '@storybook/client-api';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import '../src/styles/index.css';
 
 addParameters({
     viewport: {

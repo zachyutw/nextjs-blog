@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "jest": true,
+        "es6": true
+    },
+    "plugins": ["import"],
+    "extends": ["eslint:recommended", "plugin:mdx/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": "warn",
+        "no-eval": "error",
+        "import/first": "error"
+    },
+    "overrides": [
+        {
+            "files": ["*.md"],
+            "rules": {
+                "prettier/prettier": [
+                    2,
+                    {
+                        // unnecessary if you're not using `eslint-plugin-prettier`, but required if you are
+                        "parser": "markdown"
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["*.mdx"],
+            "extends": ["plugin:mdx/overrides"]
+        }
+    ]
+}
