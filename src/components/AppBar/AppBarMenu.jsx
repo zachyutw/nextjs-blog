@@ -35,7 +35,7 @@ export const AppBarMenu = ({ onClose = () => {}, anchorEl, open, id }) => {
     );
 };
 
-export const AppBarMenuMobile = ({ onClose = () => {},onOpen = ()=>{}, anchorEl, open, id }) => {
+export const AppBarMenuMobile = ({ onClose = () => {},onOpen = ()=>{}, anchorEl, open, id  }) => {
     const { profile,myAccount } = menu;
     return (
         <Menu
@@ -49,7 +49,7 @@ export const AppBarMenuMobile = ({ onClose = () => {},onOpen = ()=>{}, anchorEl,
     >
         <MenuItem>
             <IconButton aria-label="show 4 new mails" color="inherit">
-                <Badge badgeContent={4} color="secondary">
+                <Badge badgeContent={null} color="secondary">
                     <MailIcon />
                 </Badge>
             </IconButton>
@@ -60,7 +60,7 @@ export const AppBarMenuMobile = ({ onClose = () => {},onOpen = ()=>{}, anchorEl,
                 aria-label="show 11 new notifications"
                 color="inherit"
             >
-                <Badge badgeContent={11} color="secondary">
+                <Badge badgeContent={null} color="secondary">
                     <NotificationsIcon />
                 </Badge>
             </IconButton>
