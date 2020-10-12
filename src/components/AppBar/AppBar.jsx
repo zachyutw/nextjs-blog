@@ -84,6 +84,30 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+const WebSiteLogo = ()=>{
+    const classes = useStyles();
+    return <Typography  className={classes.title} variant="h6" noWrap>
+        Zach Notes
+    </Typography>
+}
+
+const SearchInput = ()=>{
+    const classes = useStyles();
+    return <div className={classes.search}>
+    <div className={classes.searchIcon}>
+        <SearchIcon />
+    </div>
+    <InputBase
+        placeholder="Search…"
+        classes={{
+            root: classes.inputRoot,
+            input: classes.inputInput,
+        }}
+        inputProps={{ 'aria-label': 'search' }}
+    />
+</div>
+}
+
 export default function PrimarySearchAppBar() {
     const classes = useStyles();
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -124,22 +148,8 @@ export default function PrimarySearchAppBar() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography className={classes.title} variant="h6" noWrap>
-                        Material-UI
-                    </Typography>
-                    <div className={classes.search}>
-                        <div className={classes.searchIcon}>
-                            <SearchIcon />
-                        </div>
-                        <InputBase
-                            placeholder="Search…"
-                            classes={{
-                                root: classes.inputRoot,
-                                input: classes.inputInput,
-                            }}
-                            inputProps={{ 'aria-label': 'search' }}
-                        />
-                    </div>
+                    <WebSiteLogo />
+                 
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         <IconButton
