@@ -1,3 +1,12 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.options": {
+        "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+    }
 }

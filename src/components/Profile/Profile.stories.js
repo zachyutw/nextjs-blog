@@ -1,19 +1,20 @@
 import React from 'react';
-import AppBar from './AppBar';
+import CoverProfile from './CoverProfile';
 import ThemeKnob from '../../../utils/story/ThemeKnob';
 import { withKnobs } from '@storybook/addon-knobs';
 
 import { Meta } from '@storybook/addon-docs/blocks';
-<Meta title="Test" component={AppBar} />;
+<Meta title="Profile" component={CoverProfile} />;
 export default {
-    title: 'AppBar',
-    component: AppBar,
+    title: 'Profile',
+    component: CoverProfile,
     decorators: [withKnobs],
 };
 
 export const renderAppBar = () => (
     <ThemeKnob>
-        {' '}
-        <AppBar />
+        <div style={{ width: '50%' }}>
+            <CoverProfile />
+        </div>
     </ThemeKnob>
 );

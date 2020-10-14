@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styled from 'styled-components';
 
 export default function Home() {
     return (
@@ -6,10 +7,6 @@ export default function Home() {
             <Head>
                 <title>Project Home Page</title>
                 <link rel="icon" href="/favicon.ico" />
-                <script
-                    src="https://kit.fontawesome.com/0b463bbf95.js"
-                    crossorigin="anonymous"
-                ></script>
             </Head>
             <main>
                 <div className="container">

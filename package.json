@@ -75,6 +75,7 @@
         "pixelmatch": "^5.2.1",
         "pngjs": "^5.0.0",
         "react-is": "^16.13.1",
-        "react-test-renderer": "^16.13.1"
+        "react-test-renderer": "^16.13.1",
+        "remark-preset-lint-consistent": "^3.0.1"
     }
 }

@@ -26,9 +26,14 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
 ### [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
+-   stories in sub folder
+-   theme support
+
 ### [backstop](https://github.com/garris/BackstopJS)
 
 ### [cypress io](https://example.cypress.io/)
+
+### [mdx]
 
 ## Deploy
 
