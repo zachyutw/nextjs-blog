@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core';
 
 const getCssUrl = (url) => `url("${url}")`;
@@ -42,6 +42,9 @@ const CoverProfile = ({
     ],
 }) => {
     const classes = useStyles();
+    useEffect(() => {
+        console.log(window.innerHeight);
+    }, []);
     return (
         <div
             className={classes.wrapper}
